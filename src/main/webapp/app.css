@@ -1,0 +1,37 @@
+@media (min-width: 768px) {
+    .wm-app .spacing-left-md {
+        padding-left: 44px;
+        padding-right: 12px;
+    }
+    .wm-app [name="ProductPictorialView1"] {
+        min-height: 600px;
+    }
+    .wm-app [name="ProductPictorialView1"] .app-container[height="330px"] {
+        height: 600px !important;
+    }
+}
+
+.wm-app .modal.fade.in>div:not(.modal-dialog) {
+    height: auto;
+}
+
+.wm-app .modal.fade.in>div:has(>.modal-dialog) {
+    height: 100%;
+    top: 0;
+    position: relative;
+}
+
+.wm-app .modal.fade.in>div>.modal-dialog {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.wm-app .app-livelist.dummy-list>.list-group>.app-list-item .dummy-list>.list-group>.app-list-item .app-label[margin="4px 0px 0px 0px"],
+.wm-app .app-livelist.active-list.plans-list>.list-group.app-horizontal-list>.app-list-item .plan-header .app-label[marginbottom="8px"] {
+    margin: 0 !important;
+}
+
+.wm-app .app-icon-wrapper[iconsize="6px"] {
+    width: 10px;
+    top: -4px;
+}
